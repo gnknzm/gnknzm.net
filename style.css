@@ -1,0 +1,36 @@
+html, body {
+	--header-footer-size: 64px;
+	background-color: #0D1117;
+	color: #C0C7CE;
+	width: 100%;
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+header {
+	font-size: 24px;
+}
+
+header, footer {
+	height: var(--header-footer-size);
+	background-color: #161B22;
+	place-items: center;
+	display: grid;
+}
+
+header a {
+	color: inherit;
+	text-decoration-line: inherit;
+}
+
+main {
+	margin: 0;
+	min-height: calc(100vh - var(--header-footer-size) * 2);
+}
+
+.container {
+	padding: 5px 25px;
+	margin: auto;
+	max-width: 800px
+}
