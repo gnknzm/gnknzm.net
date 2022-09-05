@@ -6,7 +6,7 @@
 
 	const DAY = 24 * 60 * 60 * 1000;
 
-	document.addEventListener('DOMContentLoaded', () => {
+	window.addEventListener('DOMContentLoaded', e => {
 		document.getElementById('dummy-date').textContent = date2str(
 			new Date(new Date().getTime() - DAY * 3)
 		);
