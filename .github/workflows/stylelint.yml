@@ -2,7 +2,8 @@ name: stylelint
 on:
   pull_request:
     paths:
-      - '**.css'
+      - '*.css'
+      - './**/*.css'
       - '.github/workflows/stylelint.yml'
 
 jobs:
