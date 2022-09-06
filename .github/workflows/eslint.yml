@@ -1,0 +1,18 @@
+name: eslint
+on:
+  pull_request:
+    paths:
+      - '*.js'
+      - '.github/workflows/eslint.yml'
+
+jobs:
+  shellcheck:
+    name: runner / eslint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.0.2
+      - name: eslint
+        uses: reviewdog/action-eslint@v1.17.0
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-pr-review

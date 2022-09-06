@@ -15,13 +15,20 @@ header {
 header, footer {
 	height: var(--header-footer-size);
 	background-color: #161B22;
-	place-items: center;
-	display: grid;
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+	line-height: var(--header-footer-size);
 }
 
 header a {
 	color: inherit;
 	text-decoration-line: inherit;
+}
+
+header img {
+	margin-top: calc(var(--header-footer-size) * 0.125);
+	height: calc(var(--header-footer-size) * 0.75);
 }
 
 main {
