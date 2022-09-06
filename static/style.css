@@ -27,6 +27,7 @@ header a {
 }
 
 header img {
+	border-radius: 25%;
 	margin-top: calc(var(--header-footer-size) * 0.125);
 	height: calc(var(--header-footer-size) * 0.75);
 }
