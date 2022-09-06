@@ -3,6 +3,7 @@ on:
   pull_request:
     paths:
       - '*.js'
+      - './**/*.js'
       - '.github/workflows/eslint.yml'
 
 jobs:
