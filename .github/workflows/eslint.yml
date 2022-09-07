@@ -17,3 +17,4 @@ jobs:
           github_token: ${{ secrets.github_token }}
           reporter: github-pr-review
           eslint_flags: 'static/'
+          fail_on_error: true
