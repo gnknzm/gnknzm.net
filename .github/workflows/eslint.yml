@@ -6,7 +6,7 @@ on:
       - '.github/workflows/eslint.yml'
 
 jobs:
-  shellcheck:
+  eslint:
     name: runner / eslint
     runs-on: ubuntu-latest
     steps:
