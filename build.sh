@@ -23,7 +23,7 @@ if [[ ${#notfound[@]} -ne 0 ]]; then
 fi
 
 # depName=git@github.com:notofonts/noto-fonts.git
-NOTOFONTS_COMMIT="2725c70baa8b0176c7577093ba1fc6179aa79478"
+NOTOFONTS_COMMIT="ffebf8c1ee449e544955a7e813c54f9b73848eac"
 
 mkdir -p ~/.fonts
 
