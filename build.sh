@@ -33,7 +33,7 @@ curl -L -f -s \
 
 for f in ./logo/*.svg; do
 	echo "Convert $f -> $f.png"
-	inkscape --export-type=png "$f" --export-filename="$f.png"
+	inkscape --export-type=png "$f" --export-filename="${f%.*}.png"
 done
 
 mkdir -p ./static/imgs/
