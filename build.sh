@@ -31,7 +31,10 @@ curl -L -f -s \
 	--output ~/.fonts/NotoSans-Medium.ttf \
 	"https://raw.githubusercontent.com/notofonts/noto-fonts/${NOTOFONTS_COMMIT}/hinted/ttf/NotoSans/NotoSans-Medium.ttf"
 
-inkscape --export-type=png ./logo/*.svg
+for f in ./logo/*.svg; do
+	echo "Convert $f -> $f.png"
+	inkscape --export-type=png "$f" --export-filename="$f.png"
+done
 
 mkdir -p ./static/imgs/
 
