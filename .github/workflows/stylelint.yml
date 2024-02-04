@@ -6,7 +6,7 @@ on:
       - '.github/workflows/stylelint.yml'
 
 jobs:
-  shellcheck:
+  stylelint:
     name: runner / stylelint
     runs-on: ubuntu-latest
     steps:
