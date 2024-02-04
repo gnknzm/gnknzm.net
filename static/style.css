@@ -1,5 +1,4 @@
-html, body {
-	--header-footer-size: 64px;
+html, body{--header-footer-size: 64px;
 	background-color: #0D1117;
 	color: #C0C7CE;
 	width: 100%;
