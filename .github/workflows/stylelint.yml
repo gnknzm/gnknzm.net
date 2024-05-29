@@ -4,6 +4,9 @@ on:
     paths:
       - '**.css'
       - '.github/workflows/stylelint.yml'
+      - '.stylelintrc'
+      - 'package.json'
+      - 'package-lock.json'
 
 jobs:
   stylelint:
