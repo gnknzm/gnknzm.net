@@ -4,6 +4,9 @@ on:
     paths:
       - '**.js'
       - '.github/workflows/eslint.yml'
+      - 'eslint.config.mjs'
+      - 'package.json'
+      - 'package-lock.json'
 
 jobs:
   eslint:
