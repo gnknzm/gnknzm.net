@@ -4,6 +4,6 @@
     "eslint": "^9.3.0",
     "globals": "^16.0.0",
     "stylelint": "16.18.0",
-    "stylelint-config-recommended": "15.0.0"
+    "stylelint-config-recommended": "16.0.0"
   }
 }
